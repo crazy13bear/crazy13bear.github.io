@@ -1,10 +1,5 @@
 $(document).ready(function() {
 
-	var $elem = $('#my_custom_checkout_field');
-	$elem.detach();
-	$elem.appendTo('.woocommerce-billing-fields #billing_city_field').next();
-});
-
 	$.stellar({
 		responsive: true,
 		horisontalOffset: 60
